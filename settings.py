@@ -1,5 +1,5 @@
 """
-Module this settings
+Settings
 """
 import pyspark.sql.types as t
 
