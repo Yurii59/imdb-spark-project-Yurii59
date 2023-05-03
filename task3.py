@@ -13,4 +13,3 @@ def task3(df, write_in_file):
     df.show()
     if write_in_file:
         write(df, sts.MORE_THAN_2HR_PATH)
-

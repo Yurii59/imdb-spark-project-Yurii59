@@ -4,7 +4,7 @@ Module Read Write
 
 
 def read_spark_df(spark_session, path, schema):
-    return spark_session.read.csv(ath,
+    return spark_session.read.csv(path,
                                   header=True,
                                   nullValue='null',
                                   dateFormat='yyyy',

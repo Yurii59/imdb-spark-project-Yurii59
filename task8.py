@@ -43,4 +43,3 @@ def task8(spark_session, write_in_file):
 
     if write_in_file:
         write(most_popular_df, sts.MOST_POPULAR_BY_GENRE_PATH)
-

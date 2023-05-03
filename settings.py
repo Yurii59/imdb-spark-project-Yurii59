@@ -66,4 +66,3 @@ name_basics_schema = t.StructType([t.StructField('nconst', t.StringType(), False
                                    t.StructField('primaryProfession', t.StringType(), True),
                                    t.StructField('knownForTitles', t.StringType(), True),
                                    ])
-
