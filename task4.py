@@ -21,3 +21,4 @@ def task4(spark_session, write_in_file):
 
     if write_in_file:
         write(expanded_imdb_df, sts.ACTORS_PATH)
+

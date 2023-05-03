@@ -33,3 +33,4 @@ def task6(spark_session, write_in_file):
 
     if write_in_file:
         write(series_grouped, sts.AMOUNT_OF_EPISODES_PATH)
+

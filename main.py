@@ -61,7 +61,7 @@ def main():
     # task7(spark_session, write_in_file=True)
 
     # Task 8:
-    task8(spark_session, write_in_file=True)
+    #task8(spark_session, write_in_file=True)
 
     print('All operations completed in:', datetime.now() - start_time)
 

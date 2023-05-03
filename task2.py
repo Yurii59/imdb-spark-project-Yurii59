@@ -15,3 +15,4 @@ def task2(df, write_in_file):
     df.show()
     if write_in_file:
         write(df, sts.BORN_IN_19TH_PATH)
+
